@@ -88,10 +88,9 @@ I had to tweek string-art to add these unevenly spaced anchor points.
 
 I adapted the algorithm to the increase resolution and weaving constraints. 
 The weaving was fine but it became too dark as line where added. 
-So I used a smaller diameter polyesther thread, normally used for sewing machines. It immediately worked a lot better, in part because the previous thread was 
+So I used a smaller diameter polyesther thread, normally used for sewing machines. It immediately worked a lot better.
 
-I tried to weave 800 lines which was a length of 196 meters, I have a 200 meters roll, I had to stop at 61% so around 150 lines, because the needle was starting to trip the wires (it can probably be mitigated by augmenting the z of the needle 
-thoughout the weave and increasing the height of the pillars). Also some pillar broke due to repetitive pulling (more precisely were deformed enough that the needle touched them on the next travel) ,  
+I tried to weave 800 lines which was a length of 196 meters, I have a 200 meters roll, I had to stop at 61% so around 150 lines, because the needle was starting to trip the wires (it can probably be mitigated by augmenting the z of the needle thoughout the weave and increasing the height of the pillars). Also some pillar broke due to repetitive pulling (more precisely were deformed enough that the needle touched them on the next travel) ,  
 The results could also be improved by using even more thin threads, some wider, and taller pillars, but a little less of them.
 
 Here is what I obtain :
@@ -109,14 +108,15 @@ https://www.youtube.com/watch?v=iFLZEnoDHe8
 
 
 
-#Here how to use the soft :
+#Here's how to use the soft :
 
-use my version of string-art it has 150 pillar and 1mm pillar radius hard coded (inside the "atan" ), so 300 anchor points, you can also adjust the hardcoded shrinkage to increase or reduce the size of the image :
+dependencies :
+pip install numpy matplotlib pylab
+
+use my version of string-art it has 150 pillar and 1mm pillar radius hardcoded (inside the "atan" ), so 300 anchor points, you can also adjust the hardcoded shrinkage to increase or reduce the size of the image :
+
 python string-art.py input.jpg output-prefix          #it takes 5 min using a single core, although it is much faster with 2*less pillars (probably an issue with the original string-art using dense matrix instead of sparse matrix in the solver)
 
-
-dependecies :
-pip install numpy matplotlib pylab
 
 then use ipython 
 
@@ -124,6 +124,7 @@ import wiring
 l,g = wiring.loadGraphFromFile( "output-prefix-unquantized.txt", brokenPins , 40, nbEdges ) # use brokenPins = {} if no pins are broken, or set the broken pillars hardcoded in wiring.brokenPin() and pass this dictionary
 
 you can then view the graph with 
+
 wiring.displayGraph2( 150, g, 110, linewidth = 0.1)  # 150 = number of pillars
 
 traj = wiring.generateGraphTrajectory2( g , 150, radius_of_the_ring, 3.0 ) #3 = 1.2mm pillar radius + 1mm radius head tool + 0.8mm clearance
