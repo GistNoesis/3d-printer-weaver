@@ -5,7 +5,8 @@ Empower your 3d-printer with string art.
 Happy New Year 2017 :)
 
 This project won't be developped further anytime soon, but If you'd like to support us, you can do so at our website.
-TLDR: How to use the soft at the bottom. The thin the thread the better, Lot of small improvements have a large impact.
+
+#TLDR: How to use the soft at the bottom. The thin the thread the better, Lot of small improvements have a large impact.
 
 
 
