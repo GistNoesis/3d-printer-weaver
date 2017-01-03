@@ -133,7 +133,7 @@ traj = wiring.generateGraphTrajectory2( g , 150, radius_of_the_ring, 3.0 ) #3 = 
 wiring.writeGcode( traj, outname ) 
 
 I have a LulzBot Taz4 so I emmitted some marlin gcode, but it's pretty standard and should work anywhere, I don't set speed in it so set your speed in your printer interface)
-#The Gcode positioning is relative so we can precisely postion the needle to take into account the offset between hothead and needle
+#The Gcode positioning is relative so we can precisely position the needle to take into account the offset between hothead and needle
 
 
 To 3d-print you can use openscad to generate the STL from the scad file.
