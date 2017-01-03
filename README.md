@@ -6,7 +6,7 @@ Happy New Year 2017 :)
 
 This project won't be developped further anytime soon, but If you'd like to support us, you can do so at our website. https://gistnoesis.net
 
-#TLDR: How to use the soft at the bottom. The thiner the thread the better. Multiple small improvements have a large impact.
+#TLDR: Look at the images. How to use the soft at the bottom. How to use a 3d printer to weave. The thiner the thread the better. Multiple small improvements have a large impact.
 
 
 
