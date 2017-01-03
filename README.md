@@ -33,9 +33,9 @@ On the second day, I worked on being able to weave an image.
 Quickly I realized that the original ThreadTone project, needed at least 150, (300 better) anchor points to have correct results.
 Also the algorithm used in ThreadTone is far from being optimal, as some ThreadTone comments revealed there is an alternative project 
 
-https://github.com/danielvarga/string-art which uses a mathematical technique (solving a linear equation) to obtain the optimal result when the wire are infinitely thin.
+https://github.com/danielvarga/string-art which uses a mathematical technique (solving a linear equation) to obtain the optimal result when the wires are infinitely thin.
 
-string-art needs it's inputs in greyscale negative (on ubuntu we can use : convert -negate -colorspace gray imginput.jpg imgoutput.jpg) to obtain the correct input.
+string-art needs its input in greyscale negative (on ubuntu we can use : convert -negate -colorspace gray imginput.jpg imgoutput.jpg) to obtain the correct input.
 
 input :
 ![Olympic input](/pictures/olympic-neg.jpg?raw=true "input to string-art")
