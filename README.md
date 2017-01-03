@@ -22,7 +22,8 @@ I began with 50 2mm height, 1mm radius, pillars in a 70mm radius ring, and wrote
 To feed the thread I used an old pen ink plastic tube (3mm wide), which I taped to the printer head.
 
 
-![Prime Rings](/picture/hyperbolicRings.jpg?raw=true "Prime Rings")
+![Prime Rings](/pictures/hyperbolicRings.jpg?raw=true "Prime Rings")
+
 It has 100 lines it is a symetric desgn which was constructed algorithmically, by choosing the distance between consecutive pillars (13, and 17) so that they are coprime with the number of pillars, so we touch all pillars exactly one time.
 
 
@@ -36,15 +37,16 @@ https://github.com/danielvarga/string-art which uses a mathematical technique (s
 string-art needs it's inputs in greyscale negative (on ubuntu we can use : convert -negate -colorspace gray imginput.jpg imgoutput.jpg) to obtain the correct input.
 
 input :
-![Olympic input](/picture/olympic-neg.jpg?raw=true "input to string-art")
+![Olympic input](/pictures/olympic-neg.jpg?raw=true "input to string-art")
 
 
 output :
-![Result](/picture/olympic-unquantized.png?raw=true "output of string-art")
+![Result](/pictures/olympic-unquantized.png?raw=true "output of string-art")
 
 We can draw more detailed images too :
 
-![Vitruve](/picture/vitruve2-unquantized.png?raw=true "Vitruve")
+
+![Vitruve](/pictures/vitruve2-unquantized.png?raw=true "Vitruve")
 
 
 
@@ -56,7 +58,8 @@ After trying a few times to modify the quantisation algorithm. I choose to reduc
 This technique also permits me to choose the number of edges, and allows for probabilisticly accurate reducing of the number of edges. It also means we could continue add edges to a current weaving by overlaying a new graph on top of a previous graph.
 I increased the number of pillars to 150 with a 70mm radius ring. And tried to weave. 
 
-![150 pointy pillars](/picture/150pointypillars.jpg?raw=true "Prime Rings")
+
+![150 pointy pillars](/pictures/150pointypillars.jpg?raw=true "Prime Rings")
 
 
 Because of the number of pillars and the small size of the ring, it means that there is less than 1mm between the pillars. So the thread guide can't cross. So it must jump over the pillars, go down, hook the pillar, then up again, jump the pillar, then down again.
@@ -67,7 +70,7 @@ So I looked for an alternative guide. Luckily I found a needle to inflate soccer
 To attach the needle to the printing head I tried tape, but it proved ineffective. So I designed a needle holder in openscad :
 A 10mm cube with a hollow cylinder in the middle. And printed it, to attach it to the head, I remarked that when the printing head is still hot ABS will stick to it. 
 
-![Needle Mount](/picture/needleMount.jpg?raw=true "Mounting the needle to the hot head")
+![Needle Mount](/pictures/needleMount.jpg?raw=true "Mounting the needle to the hot head")
 
 The needle fit is quite tight (automatically adjusted by the hot head trick). The needle must be below the printing head so the printing head don't hurt the pillars, and not to far from the printing head so that it don't reduce the print area much.
 Also when homing the printer, the needle fit should not be so strong that it would break the glass plate. But it turns out it worked just right.
