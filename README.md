@@ -4,7 +4,7 @@ Empower your 3d-printer with string art.
 
 Happy New Year 2017 :)
 
-This project won't be developped further anytime soon, but If you'd like to support us, you can do so at our website.
+This project won't be developped further anytime soon, but If you'd like to support us, you can do so at our website. https://gistnoesis.net
 
 #TLDR: How to use the soft at the bottom. The thiner the thread the better. Multiple small improvements have a large impact.
 
