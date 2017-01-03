@@ -6,7 +6,7 @@ Happy New Year 2017 :)
 
 This project won't be developped further anytime soon, but If you'd like to support us, you can do so at our website.
 
-#TLDR: How to use the soft at the bottom. The thin the thread the better, Lot of small improvements have a large impact.
+#TLDR: How to use the soft at the bottom. The thiner the thread the better. Multiple small improvements have a large impact.
 
 
 
