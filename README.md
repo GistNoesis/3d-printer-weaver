@@ -55,7 +55,7 @@ String art use a quantisation formula to convert the floating point results of t
 But when there is high contrast it happens that some times the edge must be repeated 15 times, which poses problem during manufacturing.
 
 After trying a few times to modify the quantisation algorithm. I choose to reduce the number of edges by using a sampling strategy, montecarlo fashion. 
-This technique also permits me to choose the number of edges, and allows for probabilisticly accurate reducing of the number of edges. It also means we could continue add edges to a current weaving by overlaying a new graph on top of a previous graph.
+This technique also permits me to choose the number of edges, and allows for probabilistically accurate reducing of the number of edges. It also means we could continue add edges to a current weaving by overlaying a new graph on top of a previous graph.
 I increased the number of pillars to 150 with a 70mm radius ring. And tried to weave. 
 
 
