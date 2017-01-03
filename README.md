@@ -78,7 +78,7 @@ Also when homing the printer, the needle fit should not be so strong that it wou
 
 After these adjustments, It worked better, but not quite well enough. In particular as more and more threads go in, it becomes harder to add more without tripping other wires. 
 
-At the end of the second day, results were unsatisfactory, but the needle holder was a very definite improvement. It also reveals some problems, when I add to much thread it become to dark, and we don't see anything anymore. 
+At the end of the second day, results were unsatisfactory, but the needle holder was a very definite improvement. It also reveals some problems: when I add to much thread it becomes too dark, and we can't see through anymore. 
 
 On the next day, I decided to mitigate those two problems with one stone. Increasing the ring size. It now is 110mm radius, with the 150 pillars the needle can go between without the need to jump, with a 0.5mm clearance. 
 It worked better, but there were some visual artifacts (mainly blurryness but which is important because the effect we are trying to observe are subtle), because the pillars are of the same order of size as the distance between them, the approximation of them as a single point don't hold. So instead for each pillar I now have two anchor points,
@@ -88,7 +88,7 @@ I had to tweek string-art to add these unevenly spaced anchor points.
 
 
 I adapted the algorithm to the increase resolution and weaving constraints. 
-The weaving was fine but it became too dark as line where added. 
+The weaving was fine but it became too dark as lines where added. 
 So I used a smaller diameter polyesther thread, normally used for sewing machines. It immediately worked a lot better.
 
 I tried to weave 800 lines which was a length of 196 meters, I have a 200 meters roll, I had to stop at 61% so around 150 lines, because the needle was starting to trip the wires (it can probably be mitigated by augmenting the z of the needle thoughout the weave and increasing the height of the pillars). Also some pillar broke due to repetitive pulling (more precisely were deformed enough that the needle touched them on the next travel) ,  
