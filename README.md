@@ -91,7 +91,7 @@ I adapted the algorithm to the increase resolution and weaving constraints.
 The weaving was fine but it became too dark as lines where added. 
 So I used a smaller diameter polyesther thread, normally used for sewing machines. It immediately worked a lot better.
 
-I tried to weave 800 lines which was a length of 196 meters, I have a 200 meters roll, I had to stop at 61% so around 150 lines, because the needle was starting to trip the wires (it can probably be mitigated by augmenting the z of the needle thoughout the weave and increasing the height of the pillars). Also some pillar broke due to repetitive pulling (more precisely were deformed enough that the needle touched them on the next travel) ,  
+I tried to weave 800 lines which was a length of 196 meters, I have a 200 meters roll, I had to stop at 61% so around 500 lines, because the needle was starting to trip the wires (it can probably be mitigated by augmenting the z of the needle thoughout the weave and increasing the height of the pillars). Also some pillar broke due to repetitive pulling (more precisely were deformed enough that the needle touched them on the next travel) ,  
 The results could also be improved by using even more thin threads, some wider, and taller pillars, but a little less of them.
 
 Here is what I obtain :
