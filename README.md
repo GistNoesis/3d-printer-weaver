@@ -60,7 +60,7 @@ This technique also permits me to choose the number of edges, and allows for pro
 I increased the number of pillars to 150 with a 70mm radius ring. And tried to weave. 
 
 
-![150 pointy pillars](/pictures/150pointypillars.jpg?raw=true "Prime Rings")
+![150 pointy pillars](/pictures/150pointypillars.jpg?raw=true "150 pointy pillars in a 70 mm radius ring")
 
 
 Because of the number of pillars and the small size of the ring, it means that there is less than 1mm between the pillars. So the thread guide can't cross. So it must jump over the pillars, go down, hook the pillar, then up again, jump the pillar, then down again.
